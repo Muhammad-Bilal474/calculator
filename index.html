@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="main-calculator">
+
+        <div class="input-search">
+            <input disabled id="search" type="text">
+        </div>
+
+        <div class="main-button">
+            <div>
+                <button class="button green" onclick="clar()">C</button>
+                <button class="button red" onclick="dl8()">del</button>
+                <button class="button green"  onclick="cube()">x <sup class="sup">3</sup></button>
+                <button class="button green" onclick="sqr()">x <sup class="sup">2</sup></button>
+            </div>
+            <div>
+                <button class="button" onclick="enter('(')">(</button>
+                <button class="button" onclick="enter(')')">)</button>
+                <button class="button" onclick="enter('%')">%</button>
+                <button class="button green" onclick="enter('/')">/</button>
+            </div>
+            <div>
+                <button class="button" onclick="enter(7)">7</button>
+                <button class="button" onclick="enter(8)">8</button>
+                <button class="button" onclick="enter(9)">9</button>
+                <button class="button green" onclick="enter('*')">*</button>
+            </div>
+            <div>
+                <button class="button" onclick="enter(4)">4</button>
+                <button class="button" onclick="enter(5)">5</button>
+                <button class="button" onclick="enter(6)">6</button>
+                <button class="button green" onclick="enter('-')">-</button>
+            </div>
+            <div>
+                <button class="button" onclick="enter(1)">1</button>
+                <button class="button" onclick="enter(2)">2 </button>
+                <button class="button" onclick="enter(3)">3</button>
+                <button class="button green" onclick="enter('+')">+</button>
+            </div>
+            <div>
+                <button class="button" onclick="enter('.')">.</button>
+                <button class="button" onclick="enter('0')">0 </button>
+                <button class="button" onclick="enter('00')">00</button>
+                <button class="button equal" onclick="result()">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
